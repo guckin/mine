@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "mine"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-6ge24nirg7k8"
+s3_prefix = "mine"
+region = "us-west-2"
+capabilities = "CAPABILITY_IAM"
+image_repositories = ["CrawlerFunction=084882962555.dkr.ecr.us-west-2.amazonaws.com/mine918b81db/crawlerfunctione56da2f3repo"]
