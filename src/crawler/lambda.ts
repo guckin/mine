@@ -1,3 +1,3 @@
-export type Greeting = `Hello ${string}`;
 
-export const  createLambda = () => () => Promise.resolve('hello world');
+
+compose2(pick, validate, deserialize, getImage, serialize, sendToS3)
